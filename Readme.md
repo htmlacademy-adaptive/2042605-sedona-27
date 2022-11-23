@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Роберт Емельянов](https://up.htmlacademy.ru/adaptive/27/user/2042605).
-* Наставник: `Александр Зиновьев`.https://htmlacademy.ru/profile/id198751
+* Наставник: [Александр Зиновьев](https://htmlacademy.ru/profile/id198751)
 
 ---
 
