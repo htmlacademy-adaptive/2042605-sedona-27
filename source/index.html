@@ -15,8 +15,8 @@
     <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
 
     <div class="main-nav__wrapper">
-      <ul class="main-nav__list site-list">  <!-- site-list отвечает за нижнюю обертку -->
-        <li class="site-list__item site-list__item--current">ГЛАВНАЯ</li>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--current"><a href="index.html">ГЛАВНАЯ</a></li>
         <li class="site-list__item"><a href="catalog.html">ФОТО И ВИДЕО</a></li>
       </ul>
       <ul class="main-nav__list right-list">
@@ -35,9 +35,10 @@
   </section>
 
   <section class="advantages">
-    <h2>Преимущества отдыха в седоне<span class="visually-hidden"></span></h2>
-    <header class="advantages__header">
-      <p class="advantages__title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</p>
+    <h2 class="visually-hidden">Преимущества отдыха в седоне</h2>
+    <header class="advantages-header">
+      <h3 class="advantages-header__title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h3>
+      <p class="advantages-header__description">РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
     </header>
   <ol class="advantages__list">
     <li class="advantages__item">
@@ -51,19 +52,19 @@
 
      <ul class="advantages__item-sub-list">
       <li class="advantages__item">
-      <svg class="advantages__icon" width="40" height="38" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 34h8V22h-8v12Zm7-2h-6v-9h6v9Z" fill="#81B3D2"/><path d="m38 21 2-1-6-5V1h-7v7l-7-7L1 20l1 1 4-4v19H4v1h33v-1h-3V17l4 4ZM29 2h4v11l-4-4V2Zm4 34H7V15L20 3l13 12v21Z" fill="#81B3D2"/><path d="M16 14c0 3 2 4 4 4s4-1 4-4c0-2-2-3-4-3s-4 1-4 3Zm4-2 3 2c0 2-1 3-3 3-1 0-3-1-3-3l3-2ZM11 22H9v2h2v-2ZM14 22h-2v2h2v-2ZM11 25H9v2h2v-2ZM14 25h-2v2h2v-2ZM28 22h-2v2h2v-2ZM31 22h-2v2h2v-2ZM28 25h-2v2h2v-2ZM31 25h-2v2h2v-2Z" fill="#81B3D2"/></svg>
+      <div class="advantages__icon"></div>
       <h3 class="advantages__title">Жилье</h3>
       <p class="advantages__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
       </li>
 
     <li class="advantages__item">
-      <svg class="advantages__icon" width="40" height="36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M38 24H2l-2 2v2l2 2h1c0 3 2 5 5 5h24c3 0 5-2 5-5h1l2-2v-2l-2-2Zm-2 6c0 2-2 4-4 4H8c-2 0-4-2-4-4h32Zm2-2H2v-3h36v3ZM9 20l2 2 3-2 3 2 3-2 3 2 3-2 3 2 2-2 3 2 4-3-1-1-3 2-3-2-2 2-3-2-3 2-3-2-3 2-3-2-3 2-2-2-3 2-3-2-1 1 4 3 3-2ZM37 16v-1c0-8-8-14-17-14S3 7 3 15v1h34ZM20 2c8 0 15 6 16 13H4C5 8 12 2 20 2Z" fill="#81B3D2"/><path d="m20 9 1-1-1-1-1 1 1 1ZM16 7l1-1-1-1-1 1 1 1ZM24 7l1-1-1-1-1 1 1 1Z" fill="#81B3D2"/></svg>
+      <div class="advantages__icon"></div>
       <h3 class="advantages__title">Еда</h3>
       <p class="advantages__description">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
     </li>
 
     <li class="advantages__item">
-      <svg class="advantages__icon" width="67" height="75" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M64 22H38c15-7 16-11 15-13-1-4-6-7-10-6-6 2-7 11-9 17-2-6-4-14-9-18l-6-2c-4 0-10 5-7 11 2 5 10 9 15 11H3l-3 3v11c0 2 2 3 3 3h1v36h60V39c2 0 3-1 3-3V25c0-2-1-3-3-3ZM45 6c2 0 5 1 5 3 1 3-3 5-5 6l-8 4c1-3 3-13 8-13ZM21 16c-3-2-7-5-7-8 0-4 6-7 9-4 4 3 6 11 8 17l-10-5Zm6 56H7V39h20v33Zm0-36H4V25h23v11Zm11 36h-8V25h8v47Zm23 0H41V39h20v33Zm3-36H41V25h23v11Z" fill="#81B3D2"/></svg>
+      <div class="advantages__icon"></div>
       <h3 class="advantages__title">Сувениры</h3>
       <p class="advantages__description">Не только китайского, но и местного производства!</p>
     </li>
@@ -95,8 +96,8 @@
   </section>
 
   <section class="interesting">
-    <h3 class="interesting">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
-    <p class="interesting__title">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+    <h3 class="interesting__title">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+    <p class="interesting__description">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
     <button class="interesting__button" type="button">НАЙТИ ГОСТИНИЦУ</button>
   </section>
 
