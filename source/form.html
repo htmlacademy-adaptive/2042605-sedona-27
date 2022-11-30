@@ -16,45 +16,45 @@
 
     <div class="main-nav__wrapper">
       <ul class="main-nav__list site-list">  <!-- site-list отвечает за нижнюю обертку -->
-        <li class="site-list__item site-list__item--current"><a href="index.html">ГЛАВНАЯ</a></li>
-        <li class="site-list__item"><a href="catalog.html">ФОТО И ВИДЕО</a></li>
+        <li class="site-list__item site-list__item--current"><a href="index.html">Главная</a></li>
+        <li class="site-list__item"><a href="catalog.html">Фото и видео</a></li>
       </ul>
       <ul class="main-nav__list right-list">
-      <li class="right-list__item">ФОРМА ОТЗЫВА</li>
-      <li class="right-list__item"><a href="https://htmlacademy.ru/">HTML ACADEMY</a></li>
+      <li class="right-list__item"><a href="form.html">Форма отзыва</a></li>
+      <li class="right-list__item"><a href="https://htmlacademy.ru/">Html academy</a></li>
       </ul>
      </div>
    </nav>
   </header>
 
   <main class="catalog-container">
-    <h1><span class="visually-hidden">фото и видео о Седоне</span></h1>
+    <h1 class="visually-hidden">Отзыв о Седоне</span></h1>
     <div class="catalog__promo-image"><!-- основная картинка будет через background-image -->
     <img class="promo-image__text" src="img/promo-sedona-text.png" width="229" height="24" alt="тест Седона">
     </div>
 
    <section class="feedback">
      <header class="feedback__header">
-       <h2 class="feedback__title">ОСТАВЬТЕ СВОЙ ОТЗЫВ</h2>
-       <P class="feedback__description">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ!ОСТАВЬТЕ ОТЗЫВ О НИХ, А ТАКЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</P>
+       <p class="feedback__title">Оставьте свой отзыв</p>
+       <P class="feedback__description">Помогите нашим отелям стать лучше!оставьте отзыв о них, а также о посещенных вами достопримечательностях</P>
      </header>
 
      <form action="feedback__form">
       <fieldset class="feedback-primary__fieldset">
-        <legend class="feedback-primary__legend">ПРЕДСТАВТЕСЬ:</legend>
+        <legend class="feedback-primary__legend">Представтесь:</legend>
          <ul class="feedback-primary__list">
            <li class="feedback-primary__item">
-               <label class="feedback-primary__label">ИМЯ*:
+               <label class="feedback-primary__label">Имя*:
                <input class="feedback-primary__input" placeholder="Пётр" type="text" required>
                </label>
            </li>
            <li class="feedback-primary__item">
-             <label class="feedback-primary__label">ФАМИЛИЯ*:
+             <label class="feedback-primary__label">Фамилия*:
              <input class="feedback-primary__input" placeholder="Пустота" type="text" required>
              </label>
            </li>
            <li class="feedback-primary__item">
-             <label class="feedback-primary__label">ОТЧЕСТВО*:
+             <label class="feedback-primary__label">Отчество*:
              <input class="feedback-primary__input" placeholder="Викторович" type="text" required>
              </label>
            </li>
@@ -62,16 +62,16 @@
       </fieldset>
 
          <fieldset class="feedback-second__fieldset">
-          <legend class="feedback-second__legend">КОНТАКТНАЯ ИНФОРМАЦИЯ:</legend>
+          <legend class="feedback-second__legend">Контактная информация:</legend>
            <ul class="feedback-second__list">
              <li class="feedback-second__item">
-               <label class="feedback-second__label">КОНТАКТНЫЙ ТЕЛЕФОН*:
+               <label class="feedback-second__label">Контактный телефон*:
                <input class="feedback-second__input" placeholder="Введите телефон" type="text" required>
                  </label>
                  <div class="feedback-second__logo"></div>
              </li>
              <li class="feedback-second__item">
-               <label class="feedback-second__label">ЭЛЕКТРОННАЯ ПОЧТА*:
+               <label class="feedback-second__label">Электронная почта*:
                <input class="feedback-second__input" placeholder="Введите e-mail" type="email" required>
                </label>
              </li>
@@ -79,7 +79,7 @@
       </fieldset>
 
       <fieldset class="feedback-rating__fieldset">
-        <legend class="feedback-rating__legend">ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</legend>
+        <legend class="feedback-rating__legend">Ваше общее впечатление:</legend>
           <ul class="feedback-rating__list">
               <li class="feedback-rating__item">
                 <label class="feedback-rating__label">
@@ -100,7 +100,7 @@
       </fieldset>
 
       <fieldset class="feedback-rating__fieldset">
-        <legend class="feedback-rating__legend">ПОСЕЩЕННЫЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ:</legend>
+        <legend class="feedback-rating__legend">Посещенные достопримечательности:</legend>
           <ul class="feedback-rating__list">
             <li class="feedback-rating__item">
                 <label class="feedback-rating__label">
@@ -125,44 +125,45 @@
           </ul>
         </fieldset>
 
-    <label class="feedback-write-label">ОПИШИТЕ СВОИ ЭМОЦИИ
+    <label class="feedback-write-label">Опишите свои эмоции
       <textarea class="feedback-write-input">Опишите подробно все свои восторги</textarea>
     </label>
 
-    <button class="feedback-button" type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
-    <p class="feedback__explanation">*-ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</p>
+    <button class="feedback-button" type="submit">Отправить отзыв</button>
+    <p class="feedback__explanation">*-Обязательные поля</p>
      </form>
 
     </section>
   </main>
 
   <footer class="main-footer">
-    <h3 class="main-footer__title">#VISITSEDONA</h3>
+    <h3 class="main-footer__title">#visitsedona</h3>
     <ul class="main-footer__social-list">
       <li class="main-footer__item"><span class="visually-hidden">вконтакте</span>
-        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path fill-rule="evenodd" clip-rule="evenodd" d="M23 6V5h-3l-1 1-3 5-2 1V6l-1-1H9L8 6l2 2v4l-1 1c-1 0-3-3-4-7L4 5H1L0 6l4 8c2 3 5 5 8 5l2-1v-2l1-1 2 1 3 3h3l1-1-2-3-2-2v-1l3-6Z" fill="#fff"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+        <div class="main-footer__vk"></div>
       </li>
       <li class="main-footer__item"><span class="visually-hidden">телеграм</span>
-        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m22 5-3 15h-1l-5-3-3 2-1 1 1-5 9-8-1-1-11 7-5-1v-2l19-7c1 0 2 0 1 2Z" fill="#fff"/></svg>
+        <div class="main-footer__telegram"></div>
       </li>
       <li class="main-footer__item"><span class="visually-hidden">ютуб</span>
-        <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 5H5C3 5 2 6 2 8v8c0 2 1 3 3 3h14c2 0 3-1 3-3V8c0-2-1-3-3-3ZM9 15V9l7 3-7 3Z" fill="#fff"/></svg>
+       <div class="main-footer__youtube"></div>
       </li>
     </ul>
-    <p class="main-footer__developed">РАЗРАБОТАНО</p>
-    <svg class="main-footer__logo" width="27" height="35" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 0 0 1v25l14 8 13-8V1L14 0Zm11 12L14 5h-1L2 12V3l11-1 12 1v9ZM13 7l12 7-5 2-7-4v1l6 4h-1l-5-3v2l4 2-1 1-3-2v1l2 1-2 1-11-6 11-7ZM2 15l11 7v1l-8-5v2l8 4v2l-8-5v1l8 5 9-5v-5l3-2v10l-12 7-11-7V15Z" fill="#000"/></svg>
+    <p class="main-footer__developed">Разработано</p>
+    <a href="https://htmlacademy.ru/">
+    <img src="./img/htmlacademy.png" alt="логотип htmlacademy" width="27" height="35"></a>
   </footer>
 
   <div class="feedback-error-form">
-    <p class="feedback-error-form__title">ЧТО-ТО ПОШЛО НЕ ТАК!</p>
-    <p class="feedback-error-form__description">ПРОВЕРЬТЕ ПОЛЯ, ВЫДЕЛЕННЫЕ КРАСНЫМ, СКОРЕЕ ВСЕГО ВЫ ЗАБЫЛИ ИХ ЗАПОЛНИТЬ</p>
-    <button class="feedback-error__button">OK</button>
+    <p class="feedback-error-form__title">Что-то пошло не так!</p>
+    <p class="feedback-error-form__description">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+    <button class="feedback-error__button" type="button">Ok</button>
   </div>
 
   <div class="feedback-sent-form">
-    <p class="feedback-sent-form__title">ВАШ ОТЗЫВ ОТПРАВЛЕН!</p>
-    <p class="feedback-sent-form__description">СПАСИБО ЗА ВАШЕ УЧАСТИЕ, ВАШ ОТЗЫВ УЖЕ ПОСТУПИЛ К НАМ. В БЛИЖАЙШЕЕ ВРЕМЯ МЫ ОПУБЛИКУЕМ ЕГО НА САЙТЕ</p>
-    <button class="feedback-sent__button">ЗАКРЫТЬ ОКНО</button>
+    <p class="feedback-sent-form__title">Ваш отзыв отправлен!</p>
+    <p class="feedback-sent-form__description">Спасибо за ваше участие, ваш отзыв уже поступил к нам. в ближайшее время мы опубликуем его на сайте</p>
+    <button class="feedback-sent__button" type="button">Закрыть окно</button>
   </div>
 
 </body>
