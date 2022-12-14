@@ -1,6 +1,6 @@
 .feedback__header h2 {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   text-align: center;
   margin-top: 36px;
   text-transform: uppercase;
@@ -8,123 +8,113 @@
   font-size: 18px;
   line-height: 21px;
 }
-
 .feedback__description {
-  color: rgba(51, 51, 51, 1);
+  color: #333333;
   padding: 0;
   margin: 0;
   text-transform: uppercase;
   text-align: center;
   padding-top: 24px;
 }
-
 .feedback-form {
   padding: 0;
   margin: 0;
-  padding:24px 20px 0 20px;
+  padding: 24px 20px 0 20px;
 }
-
 .feedback-form__primary-fieldset,
 .feedback-form__second-fieldset,
 .feedback-form__rating-fieldset,
 .feedback-form__attractions-fieldset {
-  padding:0;
-  margin:0;
-  border:0;
+  padding: 0;
+  margin: 0;
+  border: 0;
   text-transform: uppercase;
 }
-
 .feedback-form__primary-legend,
 .feedback-form__second-legend,
 .feedback-form__rating-legend,
 .feedback-form__attractions-legend {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   padding-top: 30px;
-  border:0;
+  border: 0;
   text-align: center;
 }
-
 .feedback-form__primary-list,
 .feedback-form__second-list,
 .feedback-form__rating-list,
 .feedback-form__attractions-list {
   list-style-type: none;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding-top: 20px;
 }
-
 .feedback-form__primary-label,
 .feedback-form__second-label,
 .feedback-form__rating-label,
 .feedback-form__attractions-label {
-  padding:0;
-  margin:0;
-  color:rgba(51, 51, 51, 1);
+  padding: 0;
+  margin: 0;
+  color: #333333;
   text-transform: uppercase;
-  padding-left:16px;
+  padding-left: 16px;
 }
-
 .feedback-form__primary-input,
 .feedback-form__second-input {
   width: 100%;
-  min-height:58px;
-  padding:0;
-  margin:0;
-  padding:0 16px 0 16px;
+  min-height: 58px;
+  padding: 0;
+  margin: 0;
+  padding: 0 16px 0 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
-  color:rgba(0, 0, 0, 1);
-  background-color: rgba(242, 242, 242, 1);
-  border:0;
-  margin-bottom:8px;
+  color: #000000;
+  background-color: #f2f2f2;
+  border: 0;
+  margin-bottom: 8px;
 }
-
 .feedback-form__write-label {
   display: block;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
-  padding-top:24px;
+  padding-top: 24px;
   text-align: center;
 }
-
 .feedback-form__write-input {
-  background-color: rgba(242, 242, 242, 1);
+  background-color: #f2f2f2;
   width: 280px;
   min-height: 150px;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
-  padding:16px 16px 16px 16px;
+  padding: 16px 16px 16px 16px;
   color: rgba(0, 0, 0, 0.3);
   margin-top: 20px;
-  border:0;
+  border: 0;
 }
-
 .feedback-form__button {
- text-align: center;
- min-height: 58px;
- text-transform: uppercase;
- display: flex;
- justify-content: center;
- align-items:center;
- background-color:rgba(129, 179, 210, 1);
- color: rgba(255, 255, 255, 1);
- border:0;
- font-weight: 700;
- font-size: 21px;
- line-height: 26px;
- width: 280px;
- margin-top:56px;
+  text-align: center;
+  min-height: 58px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81b3d2;
+  color: #ffffff;
+  border: 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  width: 280px;
+  margin-top: 56px;
 }
