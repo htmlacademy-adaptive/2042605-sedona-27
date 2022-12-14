@@ -11,34 +11,33 @@
 
 <body class="page-body">
   <header class="main-header">
-    <a class="main-header__logo-link" aria-current="page" href="index.html">
+    <a class="main-header__logo" aria-current="page" href="index.html">
       <img class="main-header__logo-img" src="img/logo.png" width="185" height="96" alt="логотип Седона"></a>
 
     <nav class="main-nav">
     <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+    <button class="main-nav__close" type="button"><span class="visually-hidden">Закрыть меню</span></button>
 
-    <div class="main-nav__wrapper">
       <ul class="main-nav__list site-list">
-        <li class="site-list__item"><a href="index.html">Главная</a></li>
-        <li class="site-list__item"><a href="catalog.html">Фото и видео</a></li>
+        <li class="site-list__item site-list__item--current"><a href="index.html" class="main-nav__link">Главная</a></li>
+        <li class="site-list__item"><a class="main-nav__link" href="catalog.html">Фото и видео</a></li>
       </ul>
       <ul class="main-nav__list right-list">
-      <li class="right-list__item right-list__item--current"><a href="form.html">Форма отзыва</a></li>
-      <li class="right-list__item"><a href="https://htmlacademy.ru/">Html academy</a></li>
+        <li class="right-list__item"><a class="main-nav__link">Форма отзыва</a></li>
+        <li class="right-list__item"><a class="main-nav__link" href="https://htmlacademy.ru/">Html academy</a></li>
       </ul>
-      </div>
     </nav>
+
+    <div class="main-header__promo">
+      <div class="main-header__promo-text-catalog"><span class="visually-hidden">слова приветсвия в город седону</span></div>
+    </div>
   </header>
 
   <main class="catalog-container">
     <h1 class="visually-hidden">Форма отзыва</h1>
-    <section class="promo-catalog">
-    <img class="promo-catalog__text" src="img/promo-sedona-text.png" width="229" height="24" alt="текст Седона">
-    </section>
-
     <section class="feedback">
       <header class="feedback__header">
-      <h2 class="visually-hidden">Оставьте свой отзыв</h2>
+      <h2>Оставьте свой отзыв</h2>
       <p class="feedback__description">Помогите нашим отелям стать лучше!оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       </header>
 
@@ -47,19 +46,16 @@
         <legend class="feedback-form__primary-legend">Представтесь:</legend>
           <ul class="feedback-form__primary-list">
             <li class="feedback-form__primary-item">
-                <label class="feedback-form__primary-label">Имя*:
-                <input class="feedback-form__primary-input" placeholder="Пётр" type="text" required>
-                </label>
+                <label class="feedback-form__primary-label" for="feedback-form__name">Имя*:</label>
+                <input class="feedback-form__primary-input" placeholder="Пётр" id="feedback-form__name" type="text" required>
             </li>
             <li class="feedback-form__primary-item">
-              <label class="feedback-form__primary-label">Фамилия*:
-              <input class="feedback-form__primary-input" placeholder="Пустота" type="text" required>
-              </label>
+              <label class="feedback-form__primary-label" for="feedback-form__surname">Фамилия*:</label>
+              <input class="feedback-form__primary-input" placeholder="Пустота" id="feedback-form__surname" type="text" required>
             </li>
             <li class="feedback-form__primary-item">
-              <label class="feedback-form__primary-label">Отчество*:
-              <input class="feedback-form__primary-input" placeholder="Викторович" type="text" required>
-              </label>
+              <label class="feedback-form__primary-label" for="feedback-form_patronymic">Отчество*:</label>
+              <input class="feedback-form__primary-input" id="for="feedback-form_patronymic"" placeholder="Викторович" type="text" required>
             </li>
           </ul>
       </fieldset>
@@ -68,14 +64,12 @@
           <legend class="feedback-form__second-legend">Контактная информация:</legend>
             <ul class="feedback-form__second-list">
               <li class="feedback-form__second-item">
-                <label class="feedback-form__second-label">Контактный телефон*:
-                <input class="feedback-form__second-input" placeholder="Введите телефон" type="text" required>
-                </label>
+                <label class="feedback-form__second-label" for="feedback-form__tel">Контактный телефон*:</label>
+                <input class="feedback-form__second-input" placeholder="Введите телефон" id="feedback-form__tel" type="text" required>
               </li>
               <li class="feedback-form__second-item">
-                <label class="feedback-form__second-label">Электронная почта*:
-                <input class="feedback-form__second-input" placeholder="Введите e-mail" type="email" required>
-                </label>
+                <label class="feedback-form__second-label" for="feedback-form__email">Электронная почта*:</label>
+                <input class="feedback-form__second-input" placeholder="Введите e-mail" id="feedback-form__email" type="email" required>
               </li>
             </ul>
       </fieldset>
@@ -101,27 +95,27 @@
           </ul>
       </fieldset>
 
-      <fieldset class="feedback-form__rating-fieldset">
-        <legend class="feedback-form__rating-legend">Посещенные достопримечательности:</legend>
-          <ul class="feedback-form__rating-list">
-            <li class="feedback-form__rating-item">
-                <label class="feedback-form__rating-label">
-                <input class="feedback-form__rating-radio" type="checkbox" name="visited-attractions" value="devil-bridge" checked>Мост Дьявола
+      <fieldset class="feedback-form__attractions-fieldset">
+        <legend class="feedback-form__attractions-legend">Посещенные достопримечательности:</legend>
+          <ul class="feedback-form__attractions-list">
+            <li class="feedback-form__attractions-item">
+                <label class="feedback-form__attractions-label">
+                <input class="feedback-form__attractions-radio" type="checkbox" name="visited-attractions" value="devil-bridge" checked>Мост Дьявола
               </label>
             </li>
-            <li class="feedback-form__rating-item">
-              <label class="feedback-form__rating-label">
-              <input class="feedback-form__rating-radio" type="checkbox" name="visited-attractions" value="mount-bell" checked>Гора-Колокол
+            <li class="feedback-form__attractions-item">
+              <label class="feedback-form__attractions-label">
+              <input class="feedback-form__attractions-radio" type="checkbox" name="visited-attractions" value="mount-bell" checked>Гора-Колокол
               </label>
               </li>
-            <li class="feedback-form__rating-item">
-                  <label class="feedback-form__rating-label">
-                  <input class="feedback-form__rating-radio" type="checkbox" name="visited-attractions" value="slide-park" checked>Слайд-парк
+            <li class="feedback-form__attractions-item">
+                  <label class="feedback-form__attractions-label">
+                  <input class="feedback-form__attractions-radio" type="checkbox" name="visited-attractions" value="slide-park" checked>Слайд-парк
                 </label>
               </li>
-              <li class="feedback-form__rating-item">
-                    <label class="feedback-form__rating-label">
-                    <input class="feedback-form__rating-radio" type="checkbox" name="visited-attractions" value="red-rocks"> Красные скалы
+              <li class="feedback-form__attractions-item">
+                    <label class="feedback-form__attractions-label">
+                    <input class="feedback-form__attractions-radio" type="checkbox" name="visited-attractions" value="red-rocks"> Красные скалы
                   </label>
                 </li>
           </ul>
@@ -137,7 +131,7 @@
       </form>
 
     </section>
-    
+
 
   </main>
 
@@ -164,12 +158,12 @@
       </li>
     </ul>
 
-    <a class="main-footer__developed" href="https://htmlacademy.ru/">Разработано
+    <a class="main-footer__developed-link" href="https://htmlacademy.ru/">Разработано
       <svg role="img" aria-label="логотип компании хтмл академии" width="27" height="35" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 0 0 1v25l14 8 13-8V1L14 0Zm11 12L14 5h-1L2 12V3l11-1 12 1v9ZM13 7l12 7-5 2-7-4v1l6 4h-1l-5-3v2l4 2-1 1-3-2v1l2 1-2 1-11-6 11-7ZM2 15l11 7v1l-8-5v2l8 4v2l-8-5v1l8 5 9-5v-5l3-2v10l-12 7-11-7V15Z" fill="#000"/></svg>
     </a>
-  </footer>
+</footer>
 
-  <div class="feedback-error-form">
+<!--   <div class="feedback-error-form">
     <p class="feedback-error-form__title">Что-то пошло не так!</p>
     <p class="feedback-error-form__description">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
     <button class="feedback-error-form__button" type="button">Ok</button>
@@ -180,7 +174,7 @@
     <p class="feedback-sent-form__description">Спасибо за ваше участие, ваш отзыв уже поступил к нам. в ближайшее время мы опубликуем его на сайте</p>
     <button class="feedback-sent-form__button" type="button">Закрыть окно</button>
   </div>
-
+ -->
 </body>
 
 </html>
