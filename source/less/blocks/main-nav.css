@@ -1,0 +1,31 @@
+.main-nav {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  background-color: #ffffff;
+}
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-nav__toggle,
+.main-nav__close {
+  display: none;
+}
+.main-nav__link {
+  display: flex;
+  justify-content: center;
+  background-color: #81b3d2;
+  padding: 17px 0 12px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.main-nav__link {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+  box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+}

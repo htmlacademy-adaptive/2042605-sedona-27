@@ -1,0 +1,36 @@
+.interesting {
+  padding-top: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffffff;
+}
+.interesting__title {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.interesting__description {
+  color: #333333;
+  margin: 0;
+  padding-top: 38px;
+}
+.interesting__link {
+  margin-top: 32px;
+  width: 100%;
+  min-height: 58px;
+  background-color: #81b3d2;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.interesting__map {
+  padding-top: 49px;
+}
