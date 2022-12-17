@@ -1,8 +1,11 @@
+.feedback {
+  background-color: #ffffff;
+}
 .feedback__header h2 {
   margin: 0;
   padding: 0;
   text-align: center;
-  margin-top: 36px;
+  padding-top: 36px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
@@ -19,7 +22,7 @@
 .feedback-form {
   padding: 0;
   margin: 0;
-  padding: 24px 20px 0 20px;
+  padding: 22px 0 0 0;
 }
 .feedback-form__primary-fieldset,
 .feedback-form__second-fieldset,
@@ -29,6 +32,34 @@
   margin: 0;
   border: 0;
   text-transform: uppercase;
+  position: relative;
+  padding: 5px 0 0 0;
+}
+.feedback-form__primary-fieldset::before,
+.feedback-form__second-fieldset::before,
+.feedback-form__rating-fieldset::before {
+  position: absolute;
+  content: " ";
+  height: 1px;
+  width: 100%;
+  background-color: #e5e5e5;
+  top: -42px;
+}
+.feedback-form__attractions-fieldset::before {
+  position: absolute;
+  content: " ";
+  height: 1px;
+  width: 100%;
+  background-color: #e5e5e5;
+  top: -75px;
+}
+.feedback-form__attractions-fieldset::after {
+  position: absolute;
+  content: " ";
+  height: 1px;
+  width: 100%;
+  background-color: #e5e5e5;
+  bottom: 0px;
 }
 .feedback-form__primary-legend,
 .feedback-form__second-legend,
@@ -53,8 +84,8 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding-top: 20px;
+  align-items: center;
+  padding: 10px 0 17px 0;
 }
 .feedback-form__primary-label,
 .feedback-form__second-label,
@@ -64,22 +95,24 @@
   margin: 0;
   color: #333333;
   text-transform: uppercase;
-  padding-left: 16px;
+  padding: 0 0 0 16px;
 }
 .feedback-form__primary-input,
 .feedback-form__second-input {
-  width: 100%;
+  box-sizing: border-box;
+  display: block;
   min-height: 58px;
+  min-width: 280px;
   padding: 0;
   margin: 0;
+  border: 0;
   padding: 0 16px 0 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
   background-color: #f2f2f2;
-  border: 0;
-  margin-bottom: 8px;
+  margin: 0 auto;
 }
 .feedback-form__write-label {
   display: block;
@@ -87,34 +120,53 @@
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
-  padding-top: 24px;
+  padding: 24px 0 10px 0;
   text-align: center;
 }
 .feedback-form__write-input {
+  box-sizing: border-box;
+  display: block;
   background-color: #f2f2f2;
+  border: 0;
   width: 280px;
   min-height: 150px;
-  font-weight: 700;
+  min-width: 280px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 18px;
-  line-height: 26px;
   padding: 16px 16px 16px 16px;
   color: rgba(0, 0, 0, 0.3);
-  margin-top: 20px;
-  border: 0;
-}
-.feedback-form__button {
-  text-align: center;
-  min-height: 58px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #81b3d2;
-  color: #ffffff;
-  border: 0;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
-  width: 280px;
-  margin-top: 56px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.feedback-form__button {
+  display: block;
+  text-align: center;
+  min-height: 58px;
+  min-width: 280px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  background-color: #81b3d2;
+  color: #ffffff;
+  border: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+.feedback-form__explanation {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+  padding: 0 20px 0 0;
+  font-size: 12px;
+  color: rgba(51, 51, 51, 0.6);
+  text-transform: uppercase;
 }

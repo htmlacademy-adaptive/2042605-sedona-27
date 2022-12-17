@@ -2,6 +2,8 @@
   position: absolute;
   z-index: 3;
   width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+
 }
 
 .main-nav__list {
@@ -16,7 +18,6 @@
   display: none;
 }
 
-
 .main-nav__link {
   display:flex;
   justify-content: center;
@@ -26,8 +27,11 @@
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
-  border-bottom:1px solid rgba(1, 1, 1, 0.2);
   text-decoration: none;
   color:rgba(255, 255, 255, 1);
 }
 
+.main-nav__link {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+  box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
