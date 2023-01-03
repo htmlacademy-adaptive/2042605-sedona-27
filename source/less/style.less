@@ -11,18 +11,23 @@
 @import "./blocks/site-list.less";
 @import "./blocks/feedback.less";
 
-html {
+.page {
   height: 100%;
-}
-
-.page-body {
-  width: 320px;
-  margin: 0 auto;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-body {
+  min-height: 100%;
+  margin: 0 auto;
   background-color:rgba(231, 229, 229, 1);
   color:rgba(0, 0, 0, 1);
 }

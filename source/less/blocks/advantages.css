@@ -1,7 +1,10 @@
 .advantages {
-  padding: 32px 0 0 0;
   background-color: #ffffff;
 }
+.advantages__header {
+  padding: 32px 60px 32px 60px;
+}
+
 .advantages__header-title {
   margin: 0;
   padding: 0;
@@ -10,13 +13,14 @@
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
 }
 .advantages__header-description {
   margin: 0;
-  padding-top: 35px;
   text-align: center;
   text-transform: uppercase;
   color: #333333;
+  padding: 35px 0 0 0;
 }
 .advantages__list {
   display: flex;
@@ -26,7 +30,6 @@
   padding: 0;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 32px;
 }
 .advantages__title {
   font-weight: 700;
