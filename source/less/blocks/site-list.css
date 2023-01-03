@@ -5,18 +5,15 @@
     justify-content: flex-start;
     width: 263px;
   }
-
   .site-list li:first-child {
     padding-left: 21px;
     padding-right: 38px;
   }
-
   .site-list li:not(:first-child) {
     padding-left: 37px;
     padding-right: 0px;
   }
 }
-
 @media (min-width: 1200px) {
   .site-list {
     display: flex;
@@ -24,14 +21,12 @@
     width: 400px;
     justify-content: flex-start;
   }
-
   .site-list li:first-child {
     padding-left: 20px;
     padding-right: 81px;
   }
-
   .site-list li:not(:first-child) {
     padding-left: 81px;
-    padding-right:0 ;
+    padding-right: 0 ;
   }
 }
